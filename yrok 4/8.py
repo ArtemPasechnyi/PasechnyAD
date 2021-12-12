@@ -1,8 +1,8 @@
 # -- coding: utf-8 --
 def inv():
-    S = str(input('Введите строку: '))
-    first_h = S.find('h')
-    second_h = S.rfind('h')
-    S = S[first_h + 1:second_h]
-    print(S[::-1])
+    s = str(input('Введите строчку: '))
+    h_1 = s.find('h')
+    h_2 = s.rfind('h')
+    s = s[h_1 + 1:h_2]
+    print(s[::-1])
 inv()
