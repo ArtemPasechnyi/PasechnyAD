@@ -1,13 +1,13 @@
 # -- coding: utf-8 --
 def sf():
-    S = str(input('Введите строку: '))
-    count_f = S.count('f')
-    if count_f >= 2:
-        arrange = S.find('f') + 1
-        second_f = S.find('f', arrange)
-        print(second_f)
+    s = str(input('Введите строчку: '))
+    c = s.count('f')
+    if c >= 2:
+        a = s.find('f') + 1
+        f_2 = s.find('f', a)
+        print(f_2)
     else:
-        if count_f == 1:
+        if c == 1:
             print(-1)
         else:
             print(-2)
