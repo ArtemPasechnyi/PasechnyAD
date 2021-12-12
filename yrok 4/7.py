@@ -1,8 +1,8 @@
 # -- coding: utf-8 --
-def delete():
-    S = str(input('Введите строку: '))
-    first_h = S.find('h')
-    second_h = S.rfind('h')
-    delete = S[first_h:second_h + 1]
-    print(S.replace(delete, '', 1))
-delete()
+def d():
+    s = str(input('Введите строчку: '))
+    h_1 = s.find('h')
+    h_2 = s.rfind('h')
+    delete = s[h_1:h_2 + 1]
+    print(s.replace(delete, '', 1))
+d()
