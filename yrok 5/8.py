@@ -1,15 +1,20 @@
 # -- coding: utf-8 --
-n = int(input('Введите число: ')) 
-i=0 
-second=0 
-while n != 0: 
-    k=n 
-    n = int(input('Введите число: ')) 
-    if k==n: 
-        i = i + 1 
-    if second<=i: 
-        second=i 
-    else: 
-     i=0 
-if second==0: print('таких чисел нет') 
-else: print('число подряд идущих элементов этой последовательности равных друг другу - :',second + 1)
+def last():
+    a = 1
+    b = 0
+    k = 0
+    while True:
+        x = int(input("Введите число:"))
+        if x == 0:
+            break
+        if (k != 0):
+            if (x == p):
+                a = a + 1
+            else:
+                if (b < a):
+                    b = a
+                a = 1
+        p = x
+        k = k + 1
+    print(max(b, a))
+last()
