@@ -4,17 +4,17 @@ def last():
     b = 0
     k = 0
     while True:
-        x = int(input("Введите число:"))
-        if x == 0:
+        i = int(input("Введите число:"))
+        if i == 0:
             break
         if (k != 0):
-            if (x == p):
+            if (i == p):
                 a = a + 1
             else:
                 if (b < a):
                     b = a
                 a = 1
-        p = x
+        p = i
         k = k + 1
     print(max(b, a))
 last()
