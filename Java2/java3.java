@@ -9,7 +9,7 @@ public class java3 {
         for (int i = 0; i < matrix.length; i++) {
             int count = 0;
             for (int j = 0; j < matrix.length; j++) {
-                int element = -9 + new Random().nextInt(19);
+                int element = -7 + new Random().nextInt(17);
                 matrix[i][j] = element;
                 if (element % 2 == 0) {
                     count++;
