@@ -8,7 +8,7 @@ public class java4 {
         System.out.println("Matrix:");
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix.length; j++) {
-                int element = -9 + new Random().nextInt(19);
+                int element = -7 + new Random().nextInt(17);
                 matrix[i][j] = element;
                 System.out.print(matrix[i][j] + " ");
                 if (j != 0 && i == j && matrix[i][j - 1] < 0) {
